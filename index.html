@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JUMO</title>
+	<meta charset = "utf-8" />
+</head>
+
+<body>
+	<!-- 화면 3분할 상 좌 우 -- >
+	<!-- 상 부분 -->
+<header>
+	<h1><a href="http://localhost:8080/">JUMO</a></h1>
+	<h2>Welcome to JUMO!</h2>
+	<p>we <strong>EAT</strong> together we <strong>GO</strong> together<br>
+	JUMO enables US soldiers to try various Korean foods conveniently on their own</p>
+</header>
+<!--좌 부분 / 누르면 음식점 떠야함-->
+<nav>
+	<ul>
+		<li><a href="http://localhost:8080/jumo/Korean.html">Korean Cuisine</a></li>
+		<li><a href="http://localhost:8080/jumo/Japanese.html">Japanese Cuisine</a></li>
+		<li><a href="http://localhost:8080/jumo/Chinese.html">Chinese Cuisine</a></li>
+		<li><a href="http://localhost:8080/jumo/Western.html">Western Cuisine</a></li>
+		<li><a href="http://localhost:8080/jumo/Southeast.html">Southeast Asian Cuisine</a></li>
+	</ul>
+</nav>
+
+	<!--우 부분  기본은 JuMo에 대한 간략한 설명-->
+<artice>
+	<p>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/DQWUAb-hmlg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</p>
+	<p>
+		<strong>J</strong> UMO is a platform that makes every non-Korean become free to experience various food from Korea.<br>
+		<strong>U</strong> can read short explanation about food as if Korean explains right next to you.<br>
+		<strong>M</strong> eet your satisfaction by your own. Don't need help from Korean.<br>
+		<strong>O</strong> nly you need is JUMO.<br>
+	</p>
+</article>
+	<!--Cuisine을 누르면 음식점 뜨게 -->
+
+<p>
+	<div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://jumo-1.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</p>
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/6021431ba9a34e36b974f756/1eu0us9od';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+</body>
+</html>
